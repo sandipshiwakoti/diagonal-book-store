@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+.container-center {
+  @apply mx-auto max-w-[1170px] w-full;
+}
+
+.container-title {
+  @apply text-[1.75rem] font-extrabold capitalize mb-[1rem] text-slate-900;
+}
+
+.clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 242 254 / var(--tw-bg-opacity));
+}
+
+.Toastify__toast-theme--dark {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(31 41 45 / var(--tw-bg-opacity)) !important;
+}
