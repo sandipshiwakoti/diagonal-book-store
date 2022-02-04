@@ -22,9 +22,9 @@ const Footer = () => {
               />
             </Link>
             <p className="text-sky-200 max-w-[20rem]">
-              Diagonal Book Store is a online book store which helps you buy IT,
-              Programming and Computer Science Books. We offer a wide range of
-              popular books.
+              Diagonal Book Store is an online book store which helps you buy
+              IT, Programming and Computer Science Books. We offer a wide range
+              of popular books.
             </p>
           </div>
           <div>
