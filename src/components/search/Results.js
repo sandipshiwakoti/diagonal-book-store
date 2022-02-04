@@ -52,6 +52,7 @@ const Results = () => {
 
   const handlePageChange = (e, value) => {
     setPage(value);
+    window.scrollTo(0, 0);
   };
 
   return (
