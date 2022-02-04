@@ -14,3 +14,4 @@ Tech Stack:
 - React Router
 - React Icons
 - React Toastify
+- React Testing Library
