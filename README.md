@@ -1,4 +1,4 @@
-<img src="./src/images/logo.png" height="60">
+<img src="./src/images/logo.png" height="128">
 
 # Diagonal Book Store
 
