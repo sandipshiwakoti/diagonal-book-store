@@ -34,6 +34,7 @@ const Nav = () => {
             >
               <input
                 type="text"
+                data-testid="inputSearch"
                 className="text-md bg-gray-800 text-gray-100 pl-[.7rem] pr-[2.7rem] py-[.8rem] rounded-md w-full font-semibold placeholder:font-mono
               placeholder:text-gray-400
               "
@@ -42,6 +43,7 @@ const Nav = () => {
                 onChange={handleChange}
               />
               <FaSearch
+                data-testid="btnSearch"
                 className="text-gray-100 absolute top-[1rem] right-[1rem] text-lg md:text-xl hover:text-gray-300 cursor-pointer"
                 onClick={handleSubmit}
               />
@@ -49,6 +51,7 @@ const Nav = () => {
             <Link
               to="/cart"
               className="relative cursor-pointer hover:opacity-70 transition-all"
+              data-testid="btnNavCart"
             >
               <BsCart4 className="text-white text-4xl font-bold " />
               <div className="absolute -top-3 -left-[0.1rem] ">
