@@ -19,7 +19,7 @@ const Book = ({ title, subtitle, price, image, isbn13 }) => {
           {title}
         </Link>
         <div className="flex gap-[.7rem] justify-between align-center">
-          <h1 className="text-gray-800 font-semibold truncate max-w-[30ch]">
+          <h1 className="text-gray-800 font-semibold truncate max-w-[22ch] sm:max-w-[40ch]">
             {subtitle}
           </h1>
           <h2 className="text-gray-800 font-bold ">{price}</h2>
