@@ -15,3 +15,5 @@ Tech Stack:
 - React Icons
 - React Toastify
 - React Testing Library
+
+Logo: [Drive Files](https://drive.google.com/drive/folders/13808WSx4FQdqVA0wQkX1E7drJqrXCvhX?usp=sharing)
